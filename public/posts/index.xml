@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Hiking Blue Heron</title>
+    <link>https://sossonga.github.io/posts/</link>
+    <description>Recent content in Posts on Hiking Blue Heron</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 18 Apr 2023 13:09:10 -0400</lastBuildDate><atom:link href="https://sossonga.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Welcome to the Hiking Blue Heron</title>
+      <link>https://sossonga.github.io/posts/welcome-to-blog/</link>
+      <pubDate>Tue, 18 Apr 2023 13:09:10 -0400</pubDate>
+      
+      <guid>https://sossonga.github.io/posts/welcome-to-blog/</guid>
+      <description>Introduction This is bold text, this is emphasized test
+Visit the Hugo website!</description>
+    </item>
+    
+  </channel>
+</rss>
