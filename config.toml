@@ -2,3 +2,5 @@ baseURL = 'https://sossonga.github.io/'
 languageCode = 'en-us'
 title = 'Hiking Blue Heron'
 theme = 'ananke'
+
+SectionPagesMenu = "main"
