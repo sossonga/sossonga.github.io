@@ -1,0 +1,25 @@
+<article class="[ featured-plants ] [ dot-shadow panel ] [ bg-light-glare ]">
+	<div class="[ wrapper ] [ flow ]">
+		<div class="[ featured-plants__inner ] [ flow ]">
+			<div class="[ featured-plants__intro ] [ flow flow-space-300 ]">
+				<h2
+					class="[ featured-plants__heading ] [ headline ] [ color-quinary-shade lg:measure-micro ]"
+					data-highlight="dark"
+				>
+					{{ featuredPlants.title }}
+				</h2>
+				<p class="[ featured-plants__summary ] [ measure-compact ]">
+					{{ featuredPlants.summary }}
+				</p>
+			</div>
+			{% for item in collections.featured %}
+			<img
+				src="{{ item.data.primaryImage }}"
+				alt="{{ item.data.primaryAltText }}"
+				loading="lazy"
+				class="radius height-auto"
+			/>
+			{% endfor %}
+		</div>
+	</div>
+</article>
