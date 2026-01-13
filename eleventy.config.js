@@ -14,6 +14,11 @@ export default function (eleventyConfig) {
             (x) => x.data.featured,
         );
     });
+
+    // Returns a collection of blog posts in reverse date order
+    eleventyConfig.addCollection('posts', (collection) => {
+        return [...collection.getFilteredByGlob('./src/posts/*.md')].reverse();
+    });
 }
 
 export const config = {
