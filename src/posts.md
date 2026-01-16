@@ -1,5 +1,5 @@
 ---
-title: 'Tangled Wilds Dev Diaries'
+title: 'Dev Diaries'
 layout: 'layouts/feed.html'
 pagination:
   data: collections.posts

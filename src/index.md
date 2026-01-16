@@ -1,5 +1,5 @@
 ---
-title: 'Tangled Wilds'
+title: 'Home'
 layout: 'layouts/home.html'
 intro:
     eyebrow: 'Welcome to the'
