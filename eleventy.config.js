@@ -1,7 +1,12 @@
+import rssPlugin from '@11ty/eleventy-plugin-rss';
+
 export default function (eleventyConfig) {
     eleventyConfig.setInputDirectory('src');
     eleventyConfig.setOutputDirectory('dist');
     eleventyConfig.addPassthroughCopy('src/images');
+
+    // Plugins
+    eleventyConfig.addPlugin(rssPlugin);
 
     // Returns work items, sorted by display order
     eleventyConfig.addCollection('plants', (collection) => {
