@@ -1,5 +1,6 @@
 ---
 title: 'Home'
+metaDesc: 'A blog featuring a three-dimensional gallery of North American native plants.'
 layout: 'layouts/home.html'
 intro:
     eyebrow: 'Welcome to the'
