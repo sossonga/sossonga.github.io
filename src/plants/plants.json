@@ -1,0 +1,4 @@
+{
+	"layout": "layouts/plant.html",
+	"permalink": "/plants/{{ title | slugify | replace('-', '_')}}.html"
+}
