@@ -1,0 +1,53 @@
+/** Skip to content **/
+a.skip-to-content {
+    height: 30px;
+    padding: 8px;
+    left: 50%;
+    position: absolute;
+    transform: translateY(-100%);
+    transition: transform 0.3s;
+}
+
+a.skip-to-content:focus {
+    transform: translateY(0%);
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    color: #3b5f5f;
+}
+
+.scientific-name {
+    font-style: italic;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    /* padding: 8px; */
+    /* align-items: center; */
+    font-family: Verdana, Arial, sans-serif;
+    background-color: #fffbf0;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 11pt;
+    font-style: italic;
+    background-color: #3b5f5f;
+    color: #fffbf0;
+    margin-bottom: 0;
+}
+
+/* .site-head {
+	padding: get-size('600') 0;
+
+} */
+
+.nav {
+	line-height: 1;
+	font-weight: 900;
+}
