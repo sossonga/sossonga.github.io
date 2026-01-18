@@ -3,25 +3,22 @@
 {% set pageHeaderTitle = title %}
 
 {% block content %}
-<section class="plant">
-	<header class="hero">
-		<div class="[ hero__inner ] [ wrapper ]">
-			<div class="[ hero__content ] [ dot-shadow radius flow ] [ bg-dark-shade color-light flow-space-400 ]">
-				{% include "partials/page-header.html" %}
-				<h2 class="scientific-name">{{ scientificName }}</h2>
-			</div>
-		</div>
-	</header>
-	<article class="[ gallery ] [ flow flow-space-800 ]">
+
+{% include "partials/page-header.html" %}
+<article class="content">
+	<h2 class="content content__header">{{ scientificName }}</h2>
+	<section class="content content__gallery">
 		{% for item in images %}
-			<img src="{{ item.url }}" alt="{{ item.altText }}" class="gallery__image" />
+			<img src="{{ item.url }}" alt="{{ item.altText }}" class="content content__image" />
 		{% endfor %}
-	</article>
-	<article class="facts">
-			<h2>Learn about {{ scientificName }}</h2>
-			<a href="{{ infoPage.url }}" target="_blank">{{ infoPage.title }} - {{ scientificName }}</a>
-	</article>
-</section>
+	</section>
+	<section class="content content__facts">
+		<p>
+			Read about <em>{{ scientificName }}</em> at 
+			<a href="{{ infoPage.url }}" target="_blank" class="content content__link">{{ infoPage.title }} - {{ scientificName }}</a>
+		</p>
+	</section>
+</article>
 
 {% include "partials/cta.html" %}
 

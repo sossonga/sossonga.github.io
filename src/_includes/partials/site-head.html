@@ -1,20 +1,15 @@
-<a class="[ skip-link ] [ button ]" href="#main-content">Skip to content</a>
-<header role="banner" class="site-head">
-	<div class="wrapper">
-		<div class="site-head__inner">
-			<a href="/" aria-label="{{ site.name }} - home" class="site-head__brand">
-			</a>
-			<nav class="[ nav ] [ site-head__nav ] [ font-sans ]" aria-label="Primary">
-				<ul class="nav__list">
-                    {% for item in navigation.items %}
-                    <li>
-                        <a href="{{ item.url }}" {{ helpers.getLinkActiveState(item.url, page.url) | safe }}
-                            >{{ item.text }}</a
-                        >
-                    </li>
-                    {% endfor %}
-                </ul>
-			</nav>
-		</div>
-	</div>
+<a class="skip-to-content" href="#main-content">Skip to content</a>
+<header role="banner" class="header">
+	<a href="/" aria-label="{{ site.name }} - home" class=" header header__logo">Tangled Wilds</a>
+	<nav class="nav" aria-label="Primary">
+		<ul class="nav nav__list">
+			{% for item in navigation.items %}
+			<li class="nav nav__item">
+				<a href="{{ item.url }}" class="nav nav__link" {{ helpers.getLinkActiveState(item.url, page.url) | safe }}>
+					{{ item.text }}
+				</a>
+			</li>
+			{% endfor %}
+		</ul>
+	</nav>
 </header>
