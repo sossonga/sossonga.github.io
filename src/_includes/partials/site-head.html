@@ -1,8 +1,10 @@
 <a class="skip-to-content" href="#main-content">Skip to content</a>
 <header role="banner" class="header">
-	<a href="/" aria-label="{{ site.name }} - home" class=" header header__logo">Tangled Wilds</a>
 	<nav class="nav" aria-label="Primary">
 		<ul class="nav nav__list">
+			<li class="nav nav__item nav--left">
+				<a href="/" aria-label="{{ site.name }} - home" class="nav nav__link nav--left">Tangled Wilds</a>
+			</li>
 			{% for item in navigation.items %}
 			<li class="nav nav__item">
 				<a href="{{ item.url }}" class="nav nav__link" {{ helpers.getLinkActiveState(item.url, page.url) | safe }}>
