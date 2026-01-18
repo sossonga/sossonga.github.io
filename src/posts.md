@@ -1,6 +1,6 @@
 ---
 title: 'Dev Diaries'
-layout: 'layouts/feed.html'
+layout: 'layouts/devlog.html'
 pagination:
   data: collections.posts
   size: 5
