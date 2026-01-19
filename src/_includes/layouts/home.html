@@ -1,17 +1,26 @@
 {% extends "layouts/base.html" %}
 {% block content %}
 <article class="content">
-	<h1 class="content content__header">{{ intro.title }}</h1>
-	<p class="content content__tagline">{{ intro.tagline }}</p>
+	<div class="keyart"></div>
+	<div class="content content__main">
+		<h1 class="content content__main-header">{{ intro.title }}</h1>
+		<p class="content content__main-tagline">{{ intro.tagline }}</p>
+	</div>
 </article>
-
-{% set ctaContent = primaryCTA %}
-{% include "partials/cta.html" %}
 
 {% include "partials/featured-plants.html" %}
 
+<div class="content content__divider"></div>
+
 {% include "partials/interactive.html" %}
 
-{% set ctaContent = cta %}
+<div class="content content__divider"></div>
+
+<article class="content content__devdiaries">
+	<h2 class="content content__header">{{ devDiaries.title }}</h2>
+	<p class="content content__tagline">{{ devDiaries.tagline }}</p>
+	<a class="button" href="{{ devDiaries.buttonUrl }}">{{ devDiaries.buttonText }}</a>
+</article>
+
 {% include "partials/cta.html" %}
 {% endblock %}
