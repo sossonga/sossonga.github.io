@@ -4,8 +4,8 @@
 	{% set ctaPrefix = ctaContent %}
 {% endif %}
 
-<article class="content">
-	<h2 class="content content__header">{{ ctaPrefix.title }}</h2>
-	<p class="content content__tagline">{{ ctaPrefix.tagline }}</p>
-	<a class="button" href="{{ ctaPrefix.buttonUrl }}">{{ ctaPrefix.buttonText }}</a>
-</article>
+<footer class="footer">
+	<h2 class="footer footer__header">{{ ctaPrefix.title }}</h2>
+	<p class="footer footer__tagline">{{ ctaPrefix.tagline }}</p>
+	<a class="button button--footer" href="{{ ctaPrefix.buttonUrl }}">{{ ctaPrefix.buttonText }}</a>
+</footer>
