@@ -55,3 +55,97 @@
 	line-height: 14px;
     margin-right: auto;
 }
+
+/** Homepage background image */
+.keyart {
+    background-image: url('../images/bg/TangledWilds.png');
+    background-position: top center;
+    background-size: cover;
+    display: flex;
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-color: #3b5f5f;
+    opacity: 60%;
+}
+
+/** Page content */
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.content__main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.content__featured {
+    justify-content: safe flex-start;
+}
+
+.content__main-header {
+    font-size: 72px;
+}
+
+.content__header {
+    color: #3b5f5f;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 32px;
+}
+
+/** Footer */
+.footer {
+    background-color: #3b5f5f;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 10px 0px 10px 0px;
+}
+
+.footer__header {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/** Buttons */
+.button {
+    background-color: #3b5f5f;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    width: 20%;
+    margin: 5px auto 0px auto;
+    /* margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto; */
+}
+
+.button--footer {
+    background-color: white;
+    color: #3b5f5f;
+}
+
+/** Divider */
+.content__divider {
+    background-color: #3b5f5f;
+    height: 20px;
+    border-style: dashed;
+    border-color: white;
+    border-width: 10px 5px;
+}
