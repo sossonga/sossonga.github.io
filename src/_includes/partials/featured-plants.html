@@ -3,12 +3,14 @@
 		<h2 class="content content__header">{{ featuredPlants.title }}</h2>
 		<p class="content content__tagline">{{ featuredPlants.tagline }}</p>
 	</section>
-	{% for item in collections.featured %}
-	<img
-		src="{{ item.data.primaryImage }}"
-		alt="{{ item.data.primaryAltText }}"
-		loading="lazy"
-		class="content content__image"
-	/>
-	{% endfor %}
+	<section class="content content__featured-images">
+		{% for item in collections.featured %}
+		<img
+			src="{{ item.data.primaryImage }}"
+			alt="{{ item.data.primaryAltText }}"
+			loading="lazy"
+			class="content content__image"
+		/>
+		{% endfor %}
+	</section>
 </article>
