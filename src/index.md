@@ -4,18 +4,18 @@ metaDesc: 'A blog featuring a three-dimensional gallery of North American native
 layout: 'layouts/home.html'
 intro:
     title: 'Tangled Wilds'
-    tagline: 'Explore a three-dimensional gallery of North American native plants.'
-    image: '/images/bg/moss.png'
+    tagline: 'Explore a 3D gallery of native biota in biomes across North America'
+    image: '/images/bg/Tangled Wilds.png'
     imageAlt: 'Broken Fork Moss in crochet style'
-primaryCTA:
-  title: 'What is the Tangled Wilds?'
-  tagline: 'The Tangled Wilds soil is a blend of Crochet, Eleventy, Godot, and Blender.'
-  buttonText: 'Read all about it'
+devDiaries:
+  title: 'Soil Structure'
+  tagline: 'The soil in Tangled Wilds is a mix of Godot and Blender, sometimes fertilized with crochet.'
+  buttonText: 'Read Dev Diaries'
   buttonUrl: '/posts/'
 featuredPlants:
-  title: 'Newest plants'
-  tagline: 'Plants that have recently grown in the Tangled Wilds. See if you can find them!'
+  title: 'Newest Flora & Fauna'
+  tagline: 'See if you can find them!'
 interactive:
-  title: 'Enter the Tangled Wilds'
+  title: 'Explore Tangled Wilds'
   source: 'Filler'
 ---
