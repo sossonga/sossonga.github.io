@@ -1,7 +1,9 @@
 ---
 title: 'Building the Camera Functionality'
 tags: ['Game Design']
+image: '../images/bg/Logo.png'
 ---
+## Dispositam terribilis quae
 Lorem markdownum **verbis**, fertur *fas* poplite cervix proximus ventis et. Regia ac gestu pugnacem actis, cum [illis](#murmurat-veros-tepescunt), et ungues ante mihi placet nomina relaxant circumstantes repagula non, speratque. Amorem suadent volucris quoque, tamen nunc sacra et genitalia candidaque audet homini iudice auras ramosam Dictaeaque.
 
 1. Addenda ventis non
