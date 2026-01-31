@@ -12,12 +12,21 @@
 			<img src="{{ item.url }}" alt="{{ item.altText }}" class="content content__image" />
 		{% endfor %}
 	</section>
-	<section class="content content__facts">
-		<p>
-			Read about <em>{{ scientificName }}</em> at 
-			<a href="{{ infoPage.url }}" target="_blank" class="content content__link">{{ infoPage.title }} - {{ scientificName }}</a>
-		</p>
+	<div class="content content--flex-column">
+		<a class="button" href="{{ infoPage.url }}" target="_blank">Read about <em>{{ scientificName }}</em></a>
+	</div>
+
+	{% if tags %}
+	<section>
+		<ul class="content content--flex-row" aria-describedby="tags-desc">
+		{% for tag in tags %}
+			<li class="content content__item content__item--small">
+					<a href="/tags/{{ tag | slugify }}.html" class="content content__link">#{{ tag | title | replace(' ', '') }}</a>
+			</li>
+		{% endfor %}
+	</ul>
 	</section>
+	{% endif %}
 </article>
 
 {% include "partials/cta.html" %}
