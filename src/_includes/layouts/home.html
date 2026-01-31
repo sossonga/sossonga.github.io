@@ -1,26 +1,20 @@
 {% extends "layouts/base.html" %}
 {% block content %}
-<article class="content">
-	<div class="keyart"></div>
-	<div class="content content__main">
-		<h1 class="content content__main-header">{{ intro.title }}</h1>
-		<p class="content content__main-tagline">{{ intro.tagline }}</p>
+<article class="content content--no-margin">
+	<div class="keyart">
+		<div class="content content__main">
+			<h1 class="content content__main-header">{{ intro.title }}</h1>
+			<p class="content content__main-tagline">{{ intro.tagline }}</p>
+		</div>
 	</div>
+	
 </article>
 
 {% include "partials/featured-plants.html" %}
 
-<div class="content content__divider"></div>
+{% include "partials/featured-post.html" %}
 
 {% include "partials/interactive.html" %}
-
-<div class="content content__divider"></div>
-
-<article class="content content__devdiaries">
-	<h2 class="content content__header">{{ devDiaries.title }}</h2>
-	<p class="content content__tagline">{{ devDiaries.tagline }}</p>
-	<a class="button" href="{{ devDiaries.buttonUrl }}">{{ devDiaries.buttonText }}</a>
-</article>
 
 {% include "partials/cta.html" %}
 {% endblock %}
