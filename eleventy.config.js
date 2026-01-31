@@ -15,7 +15,7 @@ export default function (eleventyConfig) {
     });
 
     // Creates and returns a collection of work that is set to be featured
-    eleventyConfig.addCollection('featured', (collection) => {
+    eleventyConfig.addCollection('featured-plants', (collection) => {
         return sortByDisplayOrder(collection.getFilteredByGlob('./src/plants/*.md')).filter(
             (x) => x.data.featured,
         );
@@ -24,6 +24,12 @@ export default function (eleventyConfig) {
     // Returns a collection of blog posts in reverse date order
     eleventyConfig.addCollection('posts', (collection) => {
         return [...collection.getFilteredByGlob('./src/posts/*.md')].reverse();
+    });
+
+    eleventyConfig.addCollection('featured-posts', (collection) => {
+        return sortByDisplayOrder(collection.getFilteredByGlob('./src/posts/*.md')).filter(
+            (x) => x.data.featured,
+        );
     });
 }
 
