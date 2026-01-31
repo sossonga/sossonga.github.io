@@ -1,10 +1,15 @@
-<header class="header">
-	<h1 class="header header__header"
+<header class="content content--no-margin">
+	<div class="keyart keyart--small">
+		<div class="content content__main content__main">
+		<h1 class="content content__main-header">
 		{{ pageHeaderTitle }}
-	</h1>
-	{% if pageHeaderSummary %}
-	<div class="header header__summary">
-		{{ pageHeaderSummary | safe }}
+		</h1>
+		{% if pageHeaderSummary %}
+		<div class="content content__main-tagline">
+			{{ pageHeaderSummary | safe }}
+		</div>
+		{% endif %}
+		</div>
 	</div>
-	{% endif %}
+	
 </header>

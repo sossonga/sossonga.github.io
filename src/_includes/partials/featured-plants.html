@@ -1,10 +1,10 @@
 <article class="content">
-	<section class="content content__featured">
-		<h2 class="content content__header">{{ featuredPlants.title }}</h2>
-		<p class="content content__tagline">{{ featuredPlants.tagline }}</p>
+	<section class="content content__container content--flex-row">
+		<h2 class="content content__header content__header--left">{{ featuredPlants.title }}</h2>
 	</section>
-	<section class="content content__featured-images">
-		{% for item in collections.featured %}
+	<div class="content content__featured--images">
+		<p class="content content__tagline content__tagline--featured">{{ featuredPlants.tagline }}</p>
+		{% for item in collections.featured-plants %}
 		<img
 			src="{{ item.data.primaryImage }}"
 			alt="{{ item.data.primaryAltText }}"
@@ -12,5 +12,5 @@
 			class="content content__image"
 		/>
 		{% endfor %}
-	</section>
+	</div>
 </article>
