@@ -6,21 +6,24 @@
 
 {% include "partials/page-header.html" %}
 <article class="content">
-	<h1 class="content content__header">{{ title }}</h1>
 	<section class="content content__post">
 		{{ content | safe }}
 	</section>
-</article>
-
-{% if tags %}
-	<ul class="tag-list" aria-describedby="tags-desc">
+	
+	{% if tags %}
+	<section>
+		<ul class="content content--flex-row" aria-describedby="tags-desc">
 		{% for tag in tags %}
-			<li class="tag-list tag-list__item">
-				<a href="/tag/{{ tag | slugify }}/" class="tags-list tags-list__link">#{{ tag | title | replace(' ', '') }}</a>
+			<li class="content content__item content__item--small">
+					<a href="/tags/{{ tag | slugify }}.html" class="content content__link">#{{ tag | title | replace(' ', '') }}</a>
 			</li>
 		{% endfor %}
 	</ul>
-{% endif %}
+	</section>
+	{% endif %}
+</article>
+
+
 
 {% include "partials/cta.html" %}
 {% endblock %}
