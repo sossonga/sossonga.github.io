@@ -4,11 +4,25 @@
 {% set pageHeaderSummary = content %}
 
 {% block content %}
-	<article class="content">
-		{% include "partials/page-header.html" %}
-		{% set ctaContent = primaryCTA %}
-        {% include "partials/cta.html" %}
-	</article>
-    {% set ctaContent = cta %}
-	{% include "partials/cta.html" %}
+{% include "partials/page-header.html" %}
+<article class="content">
+	<section class="content content__container content--flex-row">
+		<h2 class="content content__header content__header--left">{{ feature.title }}</h2>
+	</section>
+	<div class="content content--flex-column">
+		<p>{{ feature.tagline }}</p>
+		<a class="button" href="{{ feature.buttonUrl }}">{{ feature.buttonText }}</a>
+	</div>
+</article>
+
+<article class="content">
+	<section class="content content__container content--flex-row-reversed">
+		<h2 class="content content__header content__header--right">{{ feedback.title }}</h2>
+	</section>
+	<div class="content content--flex-column">
+		<p>{{ feedback.tagline }}</p>
+		<a class="button" href="{{ feedback.buttonUrl }}">{{ feedback.buttonText }}</a>
+	</div>
+</article>
+{% include "partials/cta.html" %}
 {% endblock %}
