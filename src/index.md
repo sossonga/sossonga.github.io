@@ -4,7 +4,7 @@ metaDesc: 'A blog featuring a three-dimensional gallery of North American native
 layout: 'layouts/home.html'
 intro:
     title: 'Tangled Wilds'
-    tagline: 'Explore a 3D gallery of native biota in biomes across North America'
+    tagline: 'Explore a 3D gallery of native biota across North America'
     image: '/images/bg/Tangled Wilds.png'
     imageAlt: 'Broken Fork Moss in crochet style'
 devDiaries:
