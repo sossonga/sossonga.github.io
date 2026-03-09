@@ -5,8 +5,6 @@ layout: 'layouts/home.html'
 intro:
     title: 'Sketchbook Heron'
     tagline: 'Peruse a portfolio of (mostly) digital art'
-    image: '/images/bg/Tangled Wilds.png'
-    imageAlt: 'Broken Fork Moss in crochet style'
 behindTheScenes:
   title: 'Behind the Scenes'
   tagline: 'Learn how the three-dimensional pieces were made, or the thought process behind some of the 2D art.'
