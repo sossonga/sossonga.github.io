@@ -10,13 +10,13 @@ export default function (eleventyConfig) {
     eleventyConfig.addPlugin(rssPlugin);
 
     // Returns work items, sorted by display order
-    eleventyConfig.addCollection('plants', (collection) => {
-	    return sortByDisplayOrder(collection.getFilteredByGlob('./src/plants/*.md'));
+    eleventyConfig.addCollection('artworks', (collection) => {
+	    return sortByDisplayOrder(collection.getFilteredByGlob('./src/artworks/*.md'));
     });
 
     // Creates and returns a collection of work that is set to be featured
-    eleventyConfig.addCollection('featured-plants', (collection) => {
-        return sortByDisplayOrder(collection.getFilteredByGlob('./src/plants/*.md')).filter(
+    eleventyConfig.addCollection('featured-art', (collection) => {
+        return sortByDisplayOrder(collection.getFilteredByGlob('./src/artworks/*.md')).filter(
             (x) => x.data.featured,
         );
     });

@@ -1,0 +1,41 @@
+{% extends "layouts/base.html" %}
+
+{% set pageHeaderTitle = title %}
+{% set pageHeaderSummary = content %}
+{% set artListItems = collections.artworks %}
+
+{# If this is a tag, grab those items instead as one large collection #}
+{% if tag %}
+	{% set artListItems = collections[tag] %}
+	{% set pageHeaderTitle = 'Artworks filed under “' + tag + '”' %}
+{% endif %}
+
+{% block content %}
+{% include "partials/page-header.html" %}
+<article class="content">
+	<section class="content__container">
+		<h2 class="content content__header content__header--left">Latest Artwork</h2>
+	</section>
+	<div class="content content--flex-row content__featured">
+		{% set featuredArt = artListItems[0] %}
+		<h2 class="content content__header content__header--featured">{{ featuredArt.data.title }}</h2>
+		<a href="{{ item.url }}" class="content content__link">
+			<img class="content content__image" src="{{ featuredArt.data.image }}" alt="{{ featuredArt.data.title }} head image.">
+		</a>
+	</div>
+</article>
+<article class="content">
+	<section>
+		<h2 class="content content__header content__header--center">All Artworks</h2>
+		<div class="content content__grid">
+			{% for item in artListItems %}
+			<li class="content content__item">
+				<a href="{{ item.url }}" class="content content__link">{{ item.data.title }}</a>
+			</li>
+			{% endfor %}
+		</div>
+	</section>
+</article>
+
+{% include "partials/cta.html" %}
+{% endblock %}

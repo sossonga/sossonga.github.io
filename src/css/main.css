@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: #3b5f5f;
+    background-color: #1b3251;
 }
 
 /** Skip to content link*/
@@ -25,7 +25,7 @@ body {
 
 /** Navigation */
 .nav {
-    background-color: #3b5f5f;
+    background-color: #1b3251;
     display: flex;
     justify-content: safe flex-end;
     overflow: hidden;
@@ -72,7 +72,7 @@ body {
     display: flex;
     height: 1000px;
     background-repeat: no-repeat;
-    background-color: #3b5f5f;
+    background-color: #1b3251;
 }
 
 /** Background image for other pages */
@@ -160,11 +160,11 @@ body {
     text-transform: uppercase;
     font-size: 32px;
     align-items: center;
-    background-color: #3b5f5f;
+    background-color: #1b3251;
     height: 200px;
     width: 50%;
     padding: 0px 5px 0px 5px;
-    box-shadow: 10px 40px #3b5f5f7f;
+    box-shadow: 10px 40px #1b32517f;
     color: white;
     margin-bottom: 64px;
 }
@@ -172,7 +172,7 @@ body {
 h2 {
     text-align: center;
     height: 75px;
-    box-shadow: 10px 20px #3b5f5f7f;
+    box-shadow: 10px 20px #1b32517f;
     margin-bottom: 20px;
     margin-right: auto;
     margin-left: auto;
@@ -191,12 +191,12 @@ h2 {
     text-transform: uppercase;
     font-size: 24px;
     align-items: center;
-    background-color: #3b5f5f7f;
+    background-color: #1b32517f;
     border-radius: 25px;
     height: 200px;
     width: 100%;
     padding: 0px 5px 0px 5px;
-    box-shadow: 5px 5px #3b5f5f;
+    box-shadow: 5px 5px #1b3251;
 }
 
 .content__item--small {
@@ -204,14 +204,14 @@ h2 {
     height: 40px;
     width: fit-content;
     background-color: white;
-    border: 2px solid #3b5f5f7f;
+    border: 2px solid #1b32517f;
     box-shadow: none;
 }
 
 .content__link, a {
     background-color: transparent;
     text-decoration: none;
-    color: #3b5f5f;
+    color: #1b3251;
     margin: 0px;
 }
 
@@ -237,7 +237,7 @@ h2 {
 }
 
 .content__featured {
-    background-color: #3b5f5f7f;
+    background-color: #1b32517f;
     height: 300px;
     justify-content: left;
     padding: 0px 20px;
@@ -253,7 +253,7 @@ h2 {
 
 /** Footer */
 .footer {
-    background-color: #3b5f5f;
+    background-color: #1b3251;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -275,7 +275,7 @@ h2 {
 
 /** Buttons */
 .button {
-    background-color: #3b5f5f;
+    background-color: #1b3251;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -289,5 +289,5 @@ h2 {
 
 .button--white {
     background-color: white;
-    color: #3b5f5f;
+    color: #1b3251;
 }

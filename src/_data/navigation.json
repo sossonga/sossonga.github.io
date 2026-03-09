@@ -5,7 +5,11 @@
             "url": "/"
         },
         {
-            "text": "Dev Diaries",
+            "text": "Artwork",
+            "url": "/artworks/"
+        },
+        {
+            "text": "Behind the Scenes",
             "url": "/posts/"
         },
         {

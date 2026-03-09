@@ -1,10 +1,10 @@
 <article class="content">
 	<section class="content content__container content--flex-row">
-		<h2 class="content content__header content__header--left">{{ featuredPlants.title }}</h2>
+		<h2 class="content content__header content__header--left">{{ featuredArt.title }}</h2>
 	</section>
 	<div class="content content__featured--images">
-		<p class="content content__tagline content__tagline--featured">{{ featuredPlants.tagline }}</p>
-		{% for item in collections.featured-plants %}
+		<p class="content content__tagline content__tagline--featured">{{ featuredArt.tagline }}</p>
+		{% for item in collections.featured-art %}
 		<img
 			src="{{ item.data.primaryImage }}"
 			alt="{{ item.data.primaryAltText }}"

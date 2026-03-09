@@ -1,21 +1,18 @@
 ---
 title: 'Home'
-metaDesc: 'A blog featuring a three-dimensional gallery of North American native plants.'
+metaDesc: 'A website featuring art; both two and three-dimensional.'
 layout: 'layouts/home.html'
 intro:
-    title: 'Tangled Wilds'
-    tagline: 'Explore a 3D gallery of native biota across North America'
+    title: 'Sketchbook Heron'
+    tagline: 'Peruse a portfolio of (mostly) digital art'
     image: '/images/bg/Tangled Wilds.png'
     imageAlt: 'Broken Fork Moss in crochet style'
-devDiaries:
-  title: 'Soil Structure'
-  tagline: 'The soil in Tangled Wilds is a mix of Godot and Blender, sometimes fertilized with crochet.'
-  buttonText: 'Read Dev Diaries'
+behindTheScenes:
+  title: 'Behind the Scenes'
+  tagline: 'Learn how the three-dimensional pieces were made, or the thought process behind some of the 2D art.'
+  buttonText: 'Read Blog Posts'
   buttonUrl: '/posts/'
-featuredPlants:
-  title: 'Newest Flora & Fauna'
-  tagline: 'See if you can find them!'
-interactive:
-  title: 'Explore Tangled Wilds'
-  source: 'Filler'
+featuredArt:
+  title: 'Latest Artwork'
+  tagline: 'Take a gander!'
 ---
