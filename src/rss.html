@@ -1,6 +1,6 @@
 ---
 title: 'Sketchbook Heron Activities'
-summary: 'A feed of the latest artwork and blog posts.'
+summary: 'A feed of the latest artwork.'
 permalink: '/feed.xml'
 ---
 <?xml version="1.0" encoding="utf-8"?>
@@ -9,21 +9,21 @@ permalink: '/feed.xml'
 	<subtitle>{{ summary }}</subtitle>
 	<link href="{{ site.url }}{{ permalink }}" rel="self"/>
 	<link href="{{ site.url }}/"/>
-	<updated>{{ collections.posts | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
+	<updated>{{ collections.artworks | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
 	<id>{{ site.url }}</id>
 	<author>
 		<name>{{ site.authorName }}</name>
 		<email>{{ site.authorEmail }}</email>
 	</author>
-	{% for post in collections.posts %}
-		{% set absolutePostUrl %}{{ site.url }}{{ post.url | url }}{% endset %}
+	{% for artwork in collections.artworks %}
+		{% set absoluteArtworkUrl %}{{ site.url }}{{ artwork.url | url }}{% endset %}
 		<entry>
-			<title>{{ post.data.title }}</title>
-			<link href="{{ absolutePostUrl }}"/>
-			<updated>{{ post.date | dateToRfc3339 }}</updated>
-			<id>{{ absolutePostUrl }}</id>
+			<title>{{ artwork.data.title }}</title>
+			<link href="{{ absoluteArtworkUrl }}"/>
+			<updated>{{ artwork.date | dateToRfc3339 }}</updated>
+			<id>{{ absoluteArtworkUrl }}</id>
 			<content type="html"><![CDATA[
-				{{ post.templateContent | safe }}
+				{{ artwork.templateContent | safe }}
 			]]></content>
 		</entry>
 	{% endfor %}
