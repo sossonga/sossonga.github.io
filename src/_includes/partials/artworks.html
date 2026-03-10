@@ -1,0 +1,16 @@
+<article class="content">
+	<section class="content content__container content--flex-row">
+		<h2 class="content content__header content__header--left">{{ artworks.title }}</h2>
+	</section>
+	<div class="content content__featured--images">
+		<p class="content content__tagline content__tagline--featured">{{ artworks.tagline }}</p>
+		{% for item in artworkListItems %}
+		<img
+			src="{{ item.data.image.url }}"
+			alt="{{ item.data.image.altText }}"
+			loading="lazy"
+			class="content content__image"
+		/>
+		{% endfor %}
+	</div>
+</article>
