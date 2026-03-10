@@ -1,11 +1,15 @@
 /** All elements */
 * {
-    font-family: Verdana, Arial, sans-serif;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    font-width: ultra-condensed;
+    font-stretch: ultra-condensed;
 }
 
-/* body {
-    background-color: #1b3251;
-} */
+body {
+    background-color: #F7F6FA;
+    color: #1b3251;
+}
 
 /** Skip to content link*/
 .skip-to-content {
@@ -23,49 +27,44 @@
     height: auto;
 }
 
+.content {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 5px;
+}
+
+.content--center {
+    justify-content: center;
+    text-align: center;
+}
+
+.content--underlined {
+    border-bottom: solid darkslategray 7px;
+}
+
+.content--circled {
+    border-radius: 50%;
+    border:solid 7px darkslategray;
+}
+
 /** Navigation */
-.nav {
-    background-color: #1b3251;
+/* .nav {
     display: flex;
     justify-content: safe flex-end;
     overflow: hidden;
 }
 
-.nav__list {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    font-size: 0;
-	line-height: 0;
-    width: 100%;
-}
-
-.nav__item {
-    padding: 14px 16px;
-}
-
 .nav__link {
-    color: white;
-    font-size: 14px;
+    font-size: 20px;
     line-height: 14px;
     text-align: right;
     text-decoration: none;
     text-transform: uppercase;
     font-weight: bold;
-}
-
-.nav__link--dark {
-    color: black;
-}
-
-.nav--left {
-    font-size: 18px;
-	line-height: 14px;
-    margin-right: auto;
-}
+} */
 
 /** Homepage background image */
-.keyart {
+/* .keyart {
     background-image: url('../images/bg/Logo.png');
     background-position: top center;
     background-size: cover;
@@ -73,22 +72,15 @@
     height: 1000px;
     background-repeat: no-repeat;
     background-color: #1b3251;
-}
-
-/** Background image for other pages */
-.keyart--small {
-    height: 400px;
-    background-size: contain;
-}
+} */
 
 /** Page content */
-.content {
-    display: flex;
+/* .content {
+    display: grid;
+    grid-template-columns: auto auto auto;
     flex-direction: column;
-    justify-content: center;
-    text-align: center;
+    
     margin-bottom: 10px;
-    background-color: white;
     margin: 0px 24px 48px 16px;
 }
 
@@ -137,6 +129,18 @@
     margin-left: auto;
 }
 
+.content--center {
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: center;
+    text-align: center;
+}
+
+.content--circled {
+    border-radius: 50%;
+    border:solid 7px #41403E;
+}
+
 .content--flex-row {
     flex-direction: row;
 }
@@ -153,9 +157,10 @@
 
 .content__main-header {
     font-size: 72px;
-}
+} 
+*/
 
-.content__header, h2 {
+/* .content__header, h2 {
     font-weight: bold;
     text-transform: uppercase;
     font-size: 32px;
@@ -167,9 +172,9 @@
     box-shadow: 10px 40px #1b32517f;
     color: white;
     margin-bottom: 64px;
-}
+} */
 
-h2 {
+/* h2 {
     text-align: center;
     height: 75px;
     box-shadow: 10px 20px #1b32517f;
@@ -177,9 +182,9 @@ h2 {
     margin-right: auto;
     margin-left: auto;
     line-height: 75px;
-}
+} */
 
-.content__header--featured {
+/* .content__header--featured {
     background-color: transparent;
     box-shadow: none;
     margin-top: 50px;
@@ -244,15 +249,26 @@ h2 {
 
 }
 
-.content__image {
+.content__image--left {
     background-color: transparent;
-    height: 300px;
-    width: 100%;
+    height: 400px;
+    width: 33%;
     margin: 0px;
+    justify-content: left;
+    margin-right: 50%;
 }
 
+.content__image--right {
+    background-color: transparent;
+    height: 400px;
+    width: 33%;
+    margin: 0px;
+    justify-content: right;
+    margin-left: 50%;
+} */
+
 /** Footer */
-.footer {
+/* .footer {
     background-color: #1b3251;
     display: flex;
     flex-direction: column;
@@ -271,13 +287,12 @@ h2 {
 .footer__policy {
     font-style: italic;
     font-size: 12px;
-}
+} */
 
 /** Buttons */
-.button {
+/* .button {
     background-color: #1b3251;
     border: none;
-    color: white;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -285,9 +300,4 @@ h2 {
     width: fit-content;
     margin: 10px 0px;
     text-transform: uppercase;
-}
-
-.button--white {
-    background-color: white;
-    color: #1b3251;
-}
+} */

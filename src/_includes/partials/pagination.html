@@ -1,7 +1,7 @@
 {# Only renders this section if there are links to render #}
 {% if pagination.href.next or pagination.href.previous %}
-    <div class="">
-        <nav class="pagination">
+    <div>
+        <nav>
             {% if pagination.href.previous %}
 					<a href="{{ pagination.href.previous }}{{ paginationAnchor }}" data-direction="backwards">
 						<span>{{ paginationPrevText if paginationPrevText else 'Previous' }}</span>
