@@ -1,0 +1,22 @@
+{% extends "layouts/base.html" %}
+
+{% set pageHeaderTitle = title %}
+{% set pageHeaderSummary = content %}
+
+{% block content %}
+<article>
+	{% include "partials/page-header.html" %}
+
+	<div class="art-container">
+		{% for item in collections.artwork %}
+		<div class="art-item">
+			<img src="{{ item.data.hero.image }}" alt="{{ item.data.hero.imageAlt }}" loading="lazy"
+			/>
+			<p>{{ item.data.title }}</p>
+			<p>[{{ item.date.toLocaleString(undefined, { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' }) }}]</p>
+			<br />
+		</div>
+		{% endfor %}
+	</div>
+</article>
+{% endblock %}

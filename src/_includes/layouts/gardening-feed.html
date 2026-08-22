@@ -1,0 +1,32 @@
+{% extends "layouts/base.html" %}
+
+{% set pageHeaderTitle = title %}
+{% set pageHeaderSummary = content %}
+
+{% block content %}
+<article>
+	{% include "partials/page-header.html" %} 
+	
+	<div class="post-container">
+		<div class="post-menu">
+			<ol>
+				{% for item in collections.gardeningPosts %}
+				<li>
+					<a
+                    href="{{ item.url }}"
+                    aria-label="See {{ item.data.title }}"
+                    class="post-link"
+                    data-frame="quaternary"
+					data-post-url="{{ item.url }}">
+                    {{ item.data.title }}
+					</a>
+				</li>
+				{% endfor %}
+			</ol>
+		</div>
+		<div class="post-item" id="post-item">
+			<p>Select a post to read it.</p>
+		</div>
+	</div>
+</article>
+{% endblock %}

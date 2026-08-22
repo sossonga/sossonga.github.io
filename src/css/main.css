@@ -1,0 +1,121 @@
+/** All elements */
+* {
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+body {
+    background-color: #1f512b;
+    color: #f1e2c5;
+}
+
+/** Skip to content link*/
+.skip-to-content {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+.skip-to-content:focus {
+    position: static;
+    width: auto;
+    height: auto;
+}
+
+/** Links */
+a {
+  color: #f1e2c5;
+}
+
+a:hover {
+  color: #e7cb8f;
+}
+
+/** List items */
+li {
+  text-align: justify;
+}
+
+/** Site header */
+.intro {
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.intro__summary {
+  text-transform: lowercase;
+}
+
+/** Page header */
+.page-header {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/** Homepage grid */
+.container {
+  display: grid;
+  grid-template-areas:
+    "featured-post featured-art";
+  grid-template-columns: 1fr 1fr;
+  gap: 3px;
+  background-color: #122e1d;
+  padding: 5px;
+  text-align: center;
+}
+.container div {
+  background-color: #1f512b;
+  padding: 10px;
+}
+.container div.intro {
+  grid-area: intro;
+}
+.container div.featured-post {
+  grid-area: featured-post;
+}
+.container div.featured-art {
+  grid-area: featured-art;
+}
+
+/** Art page grid */
+.art-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 5px;
+  background-color: #122e1d;
+  padding: 10px;
+  text-align: center;
+}
+
+/** Gardening page grid */
+.post-container {
+  display: grid;
+  grid-template-areas:
+    "post-menu post-item";
+  grid-template-columns: 1fr 2fr;
+  gap: 3px;
+  background-color: #122e1d;
+  padding: 5px;
+  text-align: center;
+}
+
+.post-container div {
+  background-color: #1f512b;
+  padding: 10px;
+}
+
+.post-container div.post-menu {
+  grid-area: post-menu;
+}
+
+.post-container div.post-item {
+  grid-area: post-item;
+}
+
+/** Images */
+img {
+  border-radius: 8px;
+}

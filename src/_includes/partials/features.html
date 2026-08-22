@@ -1,0 +1,28 @@
+<div class="featured-post">
+	{% set latestPost = collections.gardeningPosts[0] %}
+	<h2>Latest Post - {{ latestPost.data.title }}</h2>
+	<div class="post-content">
+		{{ latestPost.content | safe }}
+	</div>
+	<br />
+	<a href="/gardening/" class="button">See more posts</a>
+</div>
+
+<div class="featured-art">
+	<h2>
+		{{ featuredArtwork.title }}
+	</h2>
+	{% for item in collections.featuredArtwork %}
+	<img
+			src="{{ item.data.hero.image }}"
+			alt="{{ item.data.hero.imageAlt }}"
+			loading="lazy"
+	/>
+	<p>{{ item.data.title }}</p>
+	<p>[{{ item.date.toLocaleString(undefined, { year: 'numeric',
+	month: 'long', day: 'numeric', timeZone: 'UTC' }) }}]</p>
+	<br />
+	{% endfor %}
+	<br />
+	<a href="/artwork/" class="button">See more artwork</a>
+</div>
