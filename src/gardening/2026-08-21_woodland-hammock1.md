@@ -23,6 +23,6 @@ Here is what we need to do to reach our dreams:
 6. Put the plants in the spot  
 
 ## Coming Up
-In the next post, we'll cover how steps 1-3 went.
+In the next post, we'll cover how steps 1-3 went.  
 
-[August 21, 2026]
+[August 17, 2026]
