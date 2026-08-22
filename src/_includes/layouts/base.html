@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<link rel="stylesheet" href="/css/reset.css" type="text/css">
-        <link rel="stylesheet" href="/css/main.css" type="text/css">
+		<link rel="stylesheet" href="{{ '/css/reset.css' | url }}" type="text/css">
+        <link rel="stylesheet" href="{{ '/css/main.css' | url }}" type="text/css">
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		{% include "partials/meta-info.html" %}
 		<link rel="alternate" type="application/rss+xml" href="{{ site.url }}/feed.xml" />
-		<script src="/js/post-listener.js" defer></script>
+		<script src="{{ '/js/post-listener.js' | url }}" defer></script>
 	</head>
 	<body>
         {% include "partials/site-head.html" %}
