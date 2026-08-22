@@ -23,7 +23,6 @@ jobs:
       # install the project and to build the page
       - name: npm ci & build
         uses: actions/setup-node@v4
-      - run: npm install -g npx
       - run: npm ci
       - run: npm npx @11ty/eleventy
 
