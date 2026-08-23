@@ -1,7 +1,5 @@
-# Name of the action:
 name: Deploy GH Pages - Eleventy
 
-# when should it trigger? 
 on:
   # trigger when something is pushed to the branch main
   push: 
@@ -9,27 +7,48 @@ on:
   # make it possible to trigger manually, useful for debugging
   workflow_dispatch: 
 
+# permissions
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
 # what should be done
 jobs:
-  # we have only one stage and we name it 'build'
+  # build stage
   build:
     # this is the (docker) image used to run the steps below
     runs-on: ubuntu-latest
 
     steps:
       # checkout the branch
-      - uses: actions/checkout@v3
+      - name: Checkout
+        uses: actions/checkout@v6
 
-      # install the project and to build the page
-      - name: npm ci & build
-        uses: actions/setup-node@v4
-      - run: npm ci
-      - run: npx @11ty/eleventy
-
-      # deploy the content of _site to the branch gh-pages (default setting)
-      - name: deploy
-        uses: peaceiris/actions-gh-pages@v3
+      - name: Install dependencies and build
+        uses: actions/setup-node@v5
+        run: npm ci
+        run: npx @11ty/eleventy
+      
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+      
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v4
         with:
-          # this line is needed for the action to be able to push something to your repository
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./_site
+          path: './site'
+  
+  # deploy stage
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.output.pages_url }}
+    
+    steps:
+      # deploy the content
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
