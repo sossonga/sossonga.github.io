@@ -2,7 +2,7 @@ import rssPlugin from '@11ty/eleventy-plugin-rss';
 
 export default function (eleventyConfig) {
 	eleventyConfig.setInputDirectory('src');
-	eleventyConfig.setOutputDirectory('dist');
+	eleventyConfig.setOutputDirectory('_site');
 	
 	// Set directories to pass through to the dist folder
 	eleventyConfig.addPassthroughCopy('src/images');

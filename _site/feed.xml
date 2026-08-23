@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+	<title>Mandapanda Gardening Blog</title>
+	<subtitle>A feed of the latest gardening posts.</subtitle>
+	<link href="https://sossonga.github.io/feed.xml" rel="self"/>
+	<link href="https://sossonga.github.io/"/>
+	<updated>2026-08-21T00:00:00Z</updated>
+	<id>https://sossonga.github.io/</id>
+	<author>
+		<name>Mandapanda</name>
+		<email>hi@piccalil.li</email>
+	</author>
+	
+		
+		<entry>
+			<title>Woodland Hammock Hangout #1</title>
+			<link href="https://sossonga.github.io/gardening/woodland-hammock-hangout-1.html"/>
+			<updated>2026-08-21T00:00:00Z</updated>
+			<id>https://sossonga.github.io/gardening/woodland-hammock-hangout-1.html</id>
+			<content type="html">&lt;p&gt;This is the first post in a series about converting a shady back corner of the yard into a woodland.&lt;/p&gt;
+&lt;h2&gt;The Idea&lt;/h2&gt;
+&lt;p&gt;There are three trees that are a perfect distance from each other for hammock hanging. In the center of the triangle of trees is a stump. Other than the trees, there is a mix of boring grass and some other grass-like plants. This is it, it&#39;s just a grassy shady spot.&lt;/p&gt;
+&lt;p&gt;The goal is to replace the grass with mulch and put in a mix of shrubs, ferns, flowers, and maybe even exciting grass. These plants will provide interest throughout the seasons and act as a privacy screen. There is a stump in the center of the three trees that will also have flowers planted around it.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://sossonga.github.io/images/posts/hammock-hangout/IMG_6346.JPG&quot; alt=&quot;The Spot&quot; title=&quot;The Spot&quot;&gt;
+&lt;em&gt;The Spot&lt;/em&gt;
+&lt;img src=&quot;https://sossonga.github.io/images/posts/hammock-hangout/IMG_6347.JPG&quot; alt=&quot;The Tree Stump&quot; title=&quot;The Tree Stump&quot;&gt;
+&lt;em&gt;The Tree Stump&lt;/em&gt;&lt;/p&gt;
+&lt;h2&gt;The To-Do List&lt;/h2&gt;
+&lt;p&gt;Here is what we need to do to reach our dreams:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Order mulch&lt;/li&gt;
+&lt;li&gt;Pull up the grass carpet&lt;/li&gt;
+&lt;li&gt;Put down the mulch&lt;/li&gt;
+&lt;li&gt;Research plants that would work in that spot&lt;/li&gt;
+&lt;li&gt;Get the plants&lt;/li&gt;
+&lt;li&gt;Put the plants in the spot&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;Coming Up&lt;/h2&gt;
+&lt;p&gt;In the next post, we&#39;ll cover how steps 1-3 went.&lt;/p&gt;
+&lt;p&gt;[August 17, 2026]&lt;/p&gt;
+</content>
+		</entry>
+	
+</feed>
