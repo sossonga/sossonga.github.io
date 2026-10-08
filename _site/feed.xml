@@ -4,7 +4,7 @@
 	<subtitle>A feed of the latest gardening posts.</subtitle>
 	<link href="https://sossonga.github.io/feed.xml" rel="self"/>
 	<link href="https://sossonga.github.io/"/>
-	<updated>2026-08-24T00:00:00Z</updated>
+	<updated>2026-09-14T00:00:00Z</updated>
 	<id>https://sossonga.github.io/</id>
 	<author>
 		<name>Mandapanda</name>
@@ -13,10 +13,31 @@
 	
 		
 		<entry>
+			<title>Woodland Hammock Hangout #3</title>
+			<link href="https://sossonga.github.io/gardening/woodland-hammock-hangout-3.html"/>
+			<updated>2026-09-14T00:00:00Z</updated>
+			<id>https://sossonga.github.io/gardening/woodland-hammock-hangout-3.html</id>
+			<content type="html">&lt;p&gt;This is the third post in a series about converting a shady back corner of the yard into a woodland. We&#39;re focused entirely on the process of researching plants for the space.&lt;/p&gt;
+&lt;h2&gt;Site Survey&lt;/h2&gt;
+&lt;p&gt;TODO&lt;/p&gt;
+&lt;h2&gt;The Research&lt;/h2&gt;
+&lt;p&gt;TODO&lt;/p&gt;
+&lt;h2&gt;Coming Up&lt;/h2&gt;
+&lt;p&gt;Next up we&#39;ll cover the final steps in the checklist:&lt;/p&gt;
+&lt;ol start=&quot;5&quot;&gt;
+&lt;li&gt;Get the plants&lt;/li&gt;
+&lt;li&gt;Put the plants in the spot&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;[September 14, 2026]&lt;/p&gt;
+</content>
+		</entry>
+	
+		
+		<entry>
 			<title>Woodland Hammock Hangout #2</title>
-			<link href="https://sossonga.github.io/eleventy-gh-demo/gardening/woodland-hammock-hangout-2.html"/>
+			<link href="https://sossonga.github.io/gardening/woodland-hammock-hangout-2.html"/>
 			<updated>2026-08-24T00:00:00Z</updated>
-			<id>https://sossonga.github.io/eleventy-gh-demo/gardening/woodland-hammock-hangout-2.html</id>
+			<id>https://sossonga.github.io/gardening/woodland-hammock-hangout-2.html</id>
 			<content type="html">&lt;p&gt;This is the second post in a series about converting a shady back corner of the yard into a woodland.&lt;/p&gt;
 &lt;p&gt;Here we are covering how the first three steps in the to-do list went:&lt;/p&gt;
 &lt;ol&gt;
@@ -29,16 +50,16 @@
 &lt;p&gt;Then came the actual ordering part. I chose a vendor based on price - both the mulch and the delivery fees. Then I just had to call and put in my order for &lt;strong&gt;12yd&lt;sup&gt;3&lt;/sup&gt;&lt;/strong&gt; double grind brown mulch. It was delivered the next day! Now it was time to start removing all the greenery.&lt;/p&gt;
 &lt;h2&gt;Pulling Up the Plants&lt;/h2&gt;
 &lt;p&gt;I called it a grass carpet earlier, but there wasn&#39;t much grass. It was mostly Lady&#39;s Thumb with a few dandelions and other ground-hugging plants mixed in. I did not take the time to ID them all, I was on a rampage. The Lady&#39;s Thumb is really easy to pull up, progress was quick. It took about 5 days to clear the whole area, spending about 2 hours each morning. All the plants were tossed into the wheelbarrow as I pulled them out, and when the wheelbarrow was full, I would dump it in an area where it is okay for them to cold compost. This part of the project was the easiest but also tiring. I basically just crawled in the dirt ripping up plants while listening to music. You want to try to get every little green thing, which I didn&#39;t do perfectly. I fully expect to be weeding the area in a few weeks to get the stragglers. There are also alternatives out there to clearing the space, they just weren&#39;t options for me with the trees and my timeframe. I had first gotten some black tarps and put those down to smother the plants, it would have only taken a few weeks with the local climate. But I found out later that day that the trees could get damaged because their roots would be smothered with everything else and decided to just hand-clear the whole area.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://sossonga.github.io/eleventy-gh-demo/images/posts/hammock-hangout/IMG_6357.jpg&quot; alt=&quot;Plant Pulling In Progress&quot; title=&quot;Plant Pulling In Progress&quot;&gt;
+&lt;p&gt;&lt;img src=&quot;https://sossonga.github.io/images/posts/hammock-hangout/IMG_6357.jpg&quot; alt=&quot;Plant Pulling In Progress&quot; title=&quot;Plant Pulling In Progress&quot;&gt;
 &lt;em&gt;Plant Pulling In Progress&lt;/em&gt;&lt;/p&gt;
 &lt;h2&gt;Put Down the Mulch&lt;/h2&gt;
 &lt;p&gt;After two days of pulling up plants, I started putting down mulch to cover the areas I had just cleared. I found out the hard way that a shovel is not the right tool for gathering mulch into the wheelbarrow, and went to the hardware store for a pitchfork. Much better!&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://sossonga.github.io/eleventy-gh-demo/images/posts/hammock-hangout/IMG_6358.jpg&quot; alt=&quot;All Pulled Up and Partially Mulched&quot; title=&quot;All Pulled Up and Partially Mulched&quot;&gt;
+&lt;p&gt;&lt;img src=&quot;https://sossonga.github.io/images/posts/hammock-hangout/IMG_6358.jpg&quot; alt=&quot;All Pulled Up and Partially Mulched&quot; title=&quot;All Pulled Up and Partially Mulched&quot;&gt;
 &lt;em&gt;All Pulled Up and Partially Mulched&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;This is how the rest of the week went. I would pull up plants for an hour or two, then put down mulch for an hour. For the trees, I learned you want to taper down to just about nothing right around their trunk, so the mulch doesn&#39;t keep the bark moist. The tradeoff here is that I am signed up for weeding the trees for a while.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://sossonga.github.io/eleventy-gh-demo/images/posts/hammock-hangout/IMG_6362.jpg&quot; alt=&quot;Mulching Done&quot; title=&quot;Mulching Done&quot;&gt;
+&lt;p&gt;&lt;img src=&quot;https://sossonga.github.io/images/posts/hammock-hangout/IMG_6362.jpg&quot; alt=&quot;Mulching Done&quot; title=&quot;Mulching Done&quot;&gt;
 &lt;em&gt;Mulching Done&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://sossonga.github.io/eleventy-gh-demo/images/posts/hammock-hangout/IMG_6363.jpg&quot; alt=&quot;The Tree Stump Revealed&quot; title=&quot;The Tree Stump Revealed&quot;&gt;
+&lt;p&gt;&lt;img src=&quot;https://sossonga.github.io/images/posts/hammock-hangout/IMG_6363.jpg&quot; alt=&quot;The Tree Stump Revealed&quot; title=&quot;The Tree Stump Revealed&quot;&gt;
 &lt;em&gt;The Tree Stump Revealed&lt;/em&gt;&lt;/p&gt;
 &lt;h2&gt;Coming Up&lt;/h2&gt;
 &lt;p&gt;Next up we&#39;ll cover &lt;strong&gt;step 4&lt;/strong&gt;, the hardest one in the to-do list: researching plants for the space!&lt;/p&gt;
@@ -49,16 +70,16 @@
 		
 		<entry>
 			<title>Woodland Hammock Hangout #1</title>
-			<link href="https://sossonga.github.io/eleventy-gh-demo/gardening/woodland-hammock-hangout-1.html"/>
+			<link href="https://sossonga.github.io/gardening/woodland-hammock-hangout-1.html"/>
 			<updated>2026-08-17T00:00:00Z</updated>
-			<id>https://sossonga.github.io/eleventy-gh-demo/gardening/woodland-hammock-hangout-1.html</id>
+			<id>https://sossonga.github.io/gardening/woodland-hammock-hangout-1.html</id>
 			<content type="html">&lt;p&gt;This is the first post in a series about converting a shady back corner of the yard into a woodland.&lt;/p&gt;
 &lt;h2&gt;The Idea&lt;/h2&gt;
 &lt;p&gt;There are three trees that are a perfect distance from each other for hammock hanging. In the center of the triangle of trees is a stump. Other than the trees, there is a mix of boring grass and some other grass-like plants. This is it, it&#39;s just a grassy shady spot.&lt;/p&gt;
 &lt;p&gt;The goal is to replace the grass with mulch and put in a mix of shrubs, ferns, flowers, and maybe even exciting grass. These plants will provide interest throughout the seasons and act as a privacy screen. There is a stump in the center of the three trees that will also have flowers planted around it.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://sossonga.github.io/eleventy-gh-demo/images/posts/hammock-hangout/IMG_6346.jpg&quot; alt=&quot;The Spot&quot; title=&quot;The Spot&quot;&gt;
+&lt;p&gt;&lt;img src=&quot;https://sossonga.github.io/images/posts/hammock-hangout/IMG_6346.jpg&quot; alt=&quot;The Spot&quot; title=&quot;The Spot&quot;&gt;
 &lt;em&gt;The Spot&lt;/em&gt;
-&lt;img src=&quot;https://sossonga.github.io/eleventy-gh-demo/images/posts/hammock-hangout/IMG_6347.jpg&quot; alt=&quot;The Tree Stump&quot; title=&quot;The Tree Stump&quot;&gt;
+&lt;img src=&quot;https://sossonga.github.io/images/posts/hammock-hangout/IMG_6347.jpg&quot; alt=&quot;The Tree Stump&quot; title=&quot;The Tree Stump&quot;&gt;
 &lt;em&gt;The Tree Stump&lt;/em&gt;&lt;/p&gt;
 &lt;h2&gt;The To-Do List&lt;/h2&gt;
 &lt;p&gt;Here is what we need to do to reach our dreams:&lt;/p&gt;
