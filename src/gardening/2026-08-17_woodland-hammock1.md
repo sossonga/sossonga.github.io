@@ -8,9 +8,9 @@ There are three trees that are a perfect distance from each other for hammock ha
 
 The goal is to replace the grass with mulch and put in a mix of shrubs, ferns, flowers, and maybe even exciting grass. These plants will provide interest throughout the seasons and act as a privacy screen. There is a stump in the center of the three trees that will also have flowers planted around it.
 
-![The Spot](/images/posts/hammock-hangout/IMG_6346.JPG "The Spot")
+![The Spot](/images/posts/hammock-hangout/IMG_6346.jpg "The Spot")
 <em>The Spot</em>
-![The Tree Stump](/images/posts/hammock-hangout/IMG_6347.JPG "The Tree Stump")
+![The Tree Stump](/images/posts/hammock-hangout/IMG_6347.jpg "The Tree Stump")
 <em>The Tree Stump</em>
 
 ## The To-Do List
